@@ -5,31 +5,31 @@ Original Year: 2022 May, 11.
 Replication Authors: Lakpa Sherpa, Faizo Kasule, Kofi Antwi Appiagyei, Lucky Kofi Gbeda, and Rishaniya Parthasarathy 
 Replication date: 09May2025
 ## Original Study 
-The study was studied why tea plat (_Camellia sinesis_ L.) are resistant to _Agrobacterium_-mediated transformation (AMT), a critical tool for genetic modification. By comparing AMT in tea leaves to the highly transformable tobacco (Nicotiana benthamiana), the authors identify physical and molecular barrier in tea that disrupt _Agrobacterium_ infection, including 
-Method: 
-1.	Bacterial culture: _Agrobacterium tumefaciens_ strain GV3101 was cultured in LB medium at 28C overnight. 
+The study was studied why tea plat (_Camellia sinesis_ L.) are resistant to _Agrobacterium_-mediated transformation (AMT), a critical tool for genetic modification. By comparing AMT in tea leaves to the highly transformable tobacco (Nicotiana benthamiana), the authors identify physical and molecular barriers in tea that disrupt _Agrobacterium_ infection, that make it recalcitrant to AMT.
+## Methods: 
+1.	Bacterial culture: _Agrobacterium tumefaciens_ strain GV3101 was cultured in LB medium at 28 degree Celsius overnight (200 rpm). 
 2.	Tea and tobacco leaf disc (0.5cm x 0.5cm) were soaked in bacterial suspension for 20 mins 
-3.	Leaved discs were fixed at intervals (D0-D4) for SEM imaging via Hitachi SU8100 SEM. 
+3.	Leaved discs were fixed at intervals (D0-D4) for SEM imaging via Hitachi SU8100 SEM to examine how the tea metabolites affect _Agrobacterium tumefaciens_ morphology. 
 4.	Transcriptomics: Bacterial RNA was extracted from tea/tobacco co-cultures at D0, D3, D4. rRNA depleted libraries sequenced on Illumina Novaseq. 
 Alignment to A. tumefaciens genome+ plasmid (Bowtie2). DEGs inedited (DESeq2, P-adv<0.05) and annotated (GO/KEGG). 
 5.	qRT-PCR validation: RNA extracted reversed transcribed to cDNA amplified using TB Green Premix. It was normalized to housekeeping genes (gyrB, dnaC, atu8171). Correlation performed between RNA-seq and qRT-PCTR data (Pearson). 
 
 ## Replication Details 
-Data analysis was done using Galaxy and confirmed using R. The paper provided only the BioProject number on NCBI. No count matrix or GitHub repository were available. 
+Two pipelines were used to perform data analysis; Galaxy (https://usegalaxy.org/) and confirmed using R. The paper provided only the BioProject number on NCBI. No count matrix or GitHub repository were available. 
 Data from the paper that was replicated include:
-•	Gene Ontology enrichment analysis
 •	Differential gene expression
+•	Gene Ontology enrichment analysis
 •	Expression Pattern Analysis of Genes related to Environmental Information Processing
 •	Expression Pattern Analysis of genes related to Cellular Processes
+•	We added extra analysis to inlcude Principal Component Analysis (PCA) and time course analysis to compare AMT across D0, D3, D4 to track at what time important genes are downregulatedto make tea reclcitrant
 
 ### Data 
--	Source: Samples and references were downloaded from NCBI ENA where paper provided the BioProject number PRJNA764576 and reference genome “A. tumefaciens str. C58”
--	Change made: Any modification or cleaning steps 
-o	FastQC & MultiQC 
+-	Source: Sample data and reference genome (_A. tumefaciens_ str. C58) were downloaded from NCBI and EnsemblENA using the BioProject number PRJNA764576.
+-	Data quality control: Did  FastQC & MultiQC on the data
 o	Trimmed low-quality reads and adapters with Trimmomatic
--	
-### Methods 
--	Workflow of RNA-Seq were created using HPC and R software.  
+	
+### Data analysis Methods 
+-	Workflow of RNA-Seq were created using HPC, R software and Galaxy (https://usegalaxy.org/) .  
 o	After quality control checks and trimming
 o	Reads were aligned to reference genome using HISAT2
 o	SAM files were converted to BAM files using Samtools
@@ -48,10 +48,10 @@ The major variation was the kind of tools used in analysis
 Summary of how results compare to the original findings 
 -	Tables/figures successfully reproduced 
 -	Any difference found 
--	Possible reason of discrepancies 
+-	Possible reason of discrepancies (We had similar DEGs at day 3 and 4 as that reported in the paper, using their FPKM values from the supplementary file, showed 0 DEGs at day 0, while they reported 762DEGs. The source of this inconsistency is unclear.
 ## Conclusion 
 -	Similar DEG pattern were observed on day 3 and day 4, but not on day 0. 
--	Key genes, especially those involved in chemotaxis, quorum sensing, and flagellar assembly, were consistently downregulated in Agrobacterium exposed to tea.
+-	Key genes, especially those involved in chemotaxis, quorum sensing, and flagellar assembly, were consistently downregulated in _Agrobacterium_ exposed to tea.
 -	The original paper could be strengthened by analyzing regulatory changes between time points to better understand dynamic gene expression over the infection timeline
 -	Time course analysis
 -	Paper didn’t provide read me file and code for reproducibility
