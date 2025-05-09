@@ -33,26 +33,26 @@ Data from the paper that was replicated include:
 -	Trimmed low-quality reads and adapters with Trimmomatic
 	
 ### Data analysis Methods 
--	Workflow of RNA-Seq were created using HPC, R software and Galaxy (https://usegalaxy.org/) .  
-After quality control checks and trimming
-Reads were aligned to reference genome using HISAT2
-SAM files were converted to BAM files using Samtools
-These were sorted by genomic coordinates followed by indexing
-We continued to sort by name
-HTSeq0count was used to quantify gene expression or count matrix
-R was used to calculate FPKM
-Normalization & PCA was done using R
-DSeq2 was used to analyse differentially expressed genes in R
-DEGs were filtered and visualized in R
-  Difference from original: any methodological variation
+Workflow of RNA-Seq were created using HPC, R software and Galaxy (https://usegalaxy.org/) .  
+• After quality control checks and trimming
+• Reads were aligned to reference genome using HISAT2
+• SAM files were converted to BAM files using Samtools
+• These were sorted by genomic coordinates followed by indexing
+• We continued to sort by name
+• HTSeq0count was used to quantify gene expression or count matrix
+• R was used to calculate FPKM
+• Normalization & PCA was done using R
+• DSeq2 was used to analyse differentially expressed genes in R
+• DEGs were filtered and visualized in R
+
+### Methodological Differences from Original Study
+The major variation was the choice of analysis tools. The original study did not share full code or workflows, while we used Galaxy and R to reproduce and validate results. Additionally, we performed PCA and time-course analysis, which were not included in the original publication.
+    
+### Results Summary
+- Successfully reproduced heatmaps and barplots showing DEG patterns from D3 and D4.
+- Observed consistent downregulation of genes in chemotaxis, quorum sensing, and flagellar assembly as reported.
+- Major discrepancy: No DEGs detected at D0 using FPKM thresholds, whereas original paper reported 762 DEGs. We hypothesize this may be due to differences in normalization strategy or batch effects not documented in the original methods.
   
-The major variation was the kind of tools used in analysis
-  - We used Galaxy and R
-## Results 
-Summary of how results compare to the original findings 
--	Tables/figures successfully reproduced 
--	Any difference found 
--	Possible reason of discrepancies (We had similar DEGs at day 3 and 4 as that reported in the paper, using their FPKM values from the supplementary file, showed 0 DEGs at day 0, while they reported 762DEGs. The source of this inconsistency is unclear.
 ## Conclusion 
 -	Similar DEG pattern were observed on day 3 and day 4, but not on day 0. 
 -	Key genes, especially those involved in chemotaxis, quorum sensing, and flagellar assembly, were consistently downregulated in _Agrobacterium_ exposed to tea.
