@@ -1,9 +1,13 @@
 ### 2. Author (s)- YEAR.md 
 # Title:Comparative Transcriptome Analysis of _Agrobacterium tumefaciens_ Reveals the Molecular Basis for the Recalcitrant Genetic Transformation of _Camellia sinesis_ L
 Original Authors:  Ke Jin 1,2,†, Na Tian 1,2,†, Jorge Freire da Silva Ferreira 3, Devinder Sandhu 3, Lizheng Xiao 1, Meiyi Gu 1, Yiping Luo 2, Xiangqin Zhang 2, Guizhi Liu 2, Zhonghua Liu 1,2,*, Jianan Huang 1,2,*, Shuoqian Liu 1,2,*
+
 Original Year: 2022 May, 11. 
+
 Replication Authors: Lakpa Sherpa, Faizo Kasule, Kofi Antwi Appiagyei, Lucky Kofi Gbeda, and Rishaniya Parthasarathy 
+
 Replication date: 09May2025
+
 ## Original Study 
 The study examines why the tea plant (_Camellia sinesis_ L.) is resistant to _Agrobacterium_-mediated transformation (AMT), a critical tool for genetic modification. By comparing AMT in tea leaves to the highly transformable tobacco (_Nicotiana benthamiana_), the authors identify physical and molecular barriers in tea that disrupt _Agrobacterium_ infection, that make it recalcitrant to AMT.
 ## Methods: 
