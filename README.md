@@ -5,7 +5,7 @@ Original Year: 2022 May, 11.
 Replication Authors: Lakpa Sherpa, Faizo Kasule, Kofi Antwi Appiagyei, Lucky Kofi Gbeda, and Rishaniya Parthasarathy 
 Replication date: 09May2025
 ## Original Study 
-The study was stuided why tea plat (Camellia sinesis) are resistant to Agrobacterium-mediated transformation (AMT), a critical tool for genetic modification. By comparing AMT in tea leaves to the highly transformable tobacco (Nicotiana benthamiana), the authors identify physical and molecular barrier in tea that disrupt Agrobacterium infection, including 
+The study was studied why tea plat (Camellia sinesis) are resistant to Agrobacterium-mediated transformation (AMT), a critical tool for genetic modification. By comparing AMT in tea leaves to the highly transformable tobacco (Nicotiana benthamiana), the authors identify physical and molecular barrier in tea that disrupt Agrobacterium infection, including 
 Method: 
 1.	Bacterial culture: Agrobacterium tumefacien strain GV3101 was cultured in LB medium at 28C overnight. 
 2.	Tea and tobacco leaf disc (0.5cm x 0.5cm) were soaked in bacterial suspension for 20 mis 
