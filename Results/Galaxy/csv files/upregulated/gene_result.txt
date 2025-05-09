@@ -1,0 +1,12 @@
+tax_id	Org_name	GeneID	CurrentID	Status	Symbol	Aliases	description	other_designations	map_location	chromosome	genomic_nucleotide_accession.version	start_position_on_the_genomic_accession	end_position_on_the_genomic_accession	orientation	exon_count	OMIM
+176299	Agrobacterium fabrum str. C58	1133454	0	live	ATU_RS06990	"ATU_RS06990, AGR_C_2614, Atu1416"	AMP-binding protein	AMP-binding protein		circular	NC_003062.2	1411543	1413378	minus	0	
+176299	Agrobacterium fabrum str. C58	1134147	0	live	rnpB	"ATU_RS10300, Atu2109"	ncRNA			circular	NC_003062.2	2073536	2073937	minus	0	
+176299	Agrobacterium fabrum str. C58	1135248	0	live	ATU_RS15610	"ATU_RS15610, AGR_L_2896, Atu3374"	M20 family metallopeptidase	M20 family metallopeptidase		linear	NC_003063.2	414936	416378	minus	0	
+176299	Agrobacterium fabrum str. C58	1136111	0	live	ATU_RS19810	"ATU_RS19810, AGR_L_1248, Atu4237"	amino acid synthesis family protein	amino acid synthesis family protein		linear	NC_003063.2	1362176	1362778	plus	0	
+176299	Agrobacterium fabrum str. C58	1136950	0	live	ATU_RS24770	"ATU_RS24770, AGR_pAT_244, Atu5177"	efflux RND transporter periplasmic adaptor subunit	efflux RND transporter periplasmic adaptor subunit		Pat	NC_003064.2	173825	175018	plus	0	
+																
+																
+																
+									c1	2						
+									c2	2						
+									Pat	1						

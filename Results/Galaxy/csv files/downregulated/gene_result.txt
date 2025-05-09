@@ -1,0 +1,12 @@
+tax_id	Org_name	GeneID	CurrentID	Status	Symbol	Aliases	description	other_designations	map_location	chromosome	genomic_nucleotide_accession.version	start_position_on_the_genomic_accession	end_position_on_the_genomic_accession	orientation	exon_count	OMIM
+176299	Agrobacterium fabrum str. C58	1132350	0	live	cysK	"ATU_RS01495, AGR_C_543, Atu0312"	cysteine synthase A	cysteine synthase A		circular	NC_003062.2	305093	306061	minus	0	
+176299	Agrobacterium fabrum str. C58	1132581	0	live	ATU_RS02675	"ATU_RS02675, AGR_C_959, Atu0543"	flagellin	flagellin		circular	NC_003062.2	533119	534081	minus	0	
+176299	Agrobacterium fabrum str. C58	1132583	0	live	ATU_RS02685	"ATU_RS02685, AGR_C_961, Atu0545"	flagellin	flagellin		circular	NC_003062.2	534488	535408	minus	0	
+176299	Agrobacterium fabrum str. C58	1132858	0	live	ATU_RS04035	"ATU_RS04035, AGR_C_1501, Atu0820"	sulfate ABC transporter substrate-binding protein	sulfate ABC transporter substrate-binding protein		circular	NC_003062.2	818166	819191	plus	0	
+176299	Agrobacterium fabrum str. C58	1133410	0	live	ATU_RS06770	"ATU_RS06770, AGR_C_2535, Atu1372"	RidA family protein	RidA family protein		circular	NC_003062.2	1366382	1366852	minus	0	
+176299	Agrobacterium fabrum str. C58	1134313	0	live	ATU_RS11100	"ATU_RS11100, AGR_C_4132, Atu2275"	glyoxalase superfamily protein	glyoxalase superfamily protein		circular	NC_003062.2	2246920	2247321	minus	0	
+176299	Agrobacterium fabrum str. C58	1137408	0	live	ATU_RS23425	"ATU_RS23425, AGR_pTi_163, Atu6085"	aliphatic sulfonate ABC transporter substrate-binding protein	aliphatic sulfonate ABC transporter substrate-binding protein			NC_003065.3	103100	104032	plus	0	
+																
+																
+							C1	6								
+							pTi	1								
