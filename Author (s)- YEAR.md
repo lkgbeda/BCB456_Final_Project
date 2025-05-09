@@ -21,7 +21,7 @@ Data from the paper that was replicated include:
 •	Gene Ontology enrichment analysis
 •	Expression Pattern Analysis of Genes related to Environmental Information Processing
 •	Expression Pattern Analysis of genes related to Cellular Processes
-•	We added extra analysis to inlcude Principal Component Analysis (PCA) and time course analysis to compare AMT across D0, D3, D4 to track at what time important genes are downregulatedto make tea reclcitrant
+•	We added extra analysis to inlcude Principal Component Analysis (PCA) and time course analysis to compare AMT across D0, D3, D4 to track at what time important genes are downregulatedto make tea recalcitrant.
 
 ### Data 
 -	Source: Sample data and reference genome (_A. tumefaciens_ str. C58) were downloaded from NCBI and EnsemblENA using the BioProject number PRJNA764576.
