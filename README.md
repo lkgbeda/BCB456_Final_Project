@@ -41,11 +41,9 @@ o	Normalization & PCA was done using R
 o	DSeq2 was used to analyse differentially expressed genes in R
 o	DEGs were filtered and visualized in R
 -	Difference from original: any methodological variation
-o	
-o	The major variation was the kind of tools used in analysis
-o	We used Galaxy and R
-o	The paper 
--	Challenges encountered: Description of any obstacles 
+  
+The major variation was the kind of tools used in analysis
+  - We used Galaxy and R
 ## Results 
 Summary of how results compare to the original findings 
 -	Tables/figures successfully reproduced 
