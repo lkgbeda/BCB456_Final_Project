@@ -30,21 +30,21 @@ Data from the paper that was replicated include:
 ### Data 
 -	Source: Sample data and reference genome (_A. tumefaciens_ str. C58) were downloaded from NCBI and EnsemblENA using the BioProject number PRJNA764576.
 -	Data quality control: Did  FastQC & MultiQC on the data
-o	Trimmed low-quality reads and adapters with Trimmomatic
+-	Trimmed low-quality reads and adapters with Trimmomatic
 	
 ### Data analysis Methods 
 -	Workflow of RNA-Seq were created using HPC, R software and Galaxy (https://usegalaxy.org/) .  
-o	After quality control checks and trimming
-o	Reads were aligned to reference genome using HISAT2
-o	SAM files were converted to BAM files using Samtools
-o	These were sorted by genomic coordinates followed by indexing
-o	We continued to sort by name
-o	HTSeq0count was used to quantify gene expression or count matrix
-o	R was used to calculate FPKM
-o	Normalization & PCA was done using R
-o	DSeq2 was used to analyse differentially expressed genes in R
-o	DEGs were filtered and visualized in R
--	Difference from original: any methodological variation
+After quality control checks and trimming
+Reads were aligned to reference genome using HISAT2
+SAM files were converted to BAM files using Samtools
+These were sorted by genomic coordinates followed by indexing
+We continued to sort by name
+HTSeq0count was used to quantify gene expression or count matrix
+R was used to calculate FPKM
+Normalization & PCA was done using R
+DSeq2 was used to analyse differentially expressed genes in R
+DEGs were filtered and visualized in R
+  Difference from original: any methodological variation
   
 The major variation was the kind of tools used in analysis
   - We used Galaxy and R
