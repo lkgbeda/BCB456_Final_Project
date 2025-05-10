@@ -3,7 +3,7 @@
 This folder contains links and instructions to obtain the raw data used in our replication of Jin et al. (2022).
 
 ## Raw data:
-- BioProject: [PRJNA764576](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA764576)
+- BioProject: (PRJNA764576](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA764576)
 - Reference genome: A. tumefaciens C58 (NCBI, Ensembl)
 
 Please follow the instructions in `data_links.txt` to download the datasets.
