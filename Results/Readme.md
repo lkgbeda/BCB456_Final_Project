@@ -13,8 +13,8 @@ This folder contains files genrated from analysis using galaxy. Subfolder includ
 ## `R`
 This folder contains file output from r analysis
 - Subfolder include `DEG_Results` and `Figures`
-`DEG_Results` : contains tab separated data of differentially expressed genes
-`Figure` : contains all figures generated from R analysis. These include `down and upregulated genes diagrams`, `rldpca plots`,`FPKM heatmaps`, `FPKM distribution violin plots`, `FPKM distribution plots` and `gene exxpression summary`
+- `DEG_Results` : contains tab separated data of differentially expressed genes
+- `Figure` : contains all figures generated from R analysis. These include `down and upregulated genes diagrams`, `rldpca plots`,`FPKM heatmaps`, `FPKM distribution violin plots`, `FPKM distribution plots` and - `gene exxpression summary`
 
 ## `Processing`
 This folder contains intermediate files generated from data processing steps
