@@ -13,5 +13,5 @@ This project replicates and documents the analysis from *Comparative Transcripto
 - `authors-2022.md`: Overview of original paper and summary of replication
 - `data/`: Instructions and links to download original data
 - `code/`: Scripts used to replicate analysis
-- `results/`: This folder contain all output files generated from our replication analysis based on tools and sources used from galaxy and R.
+- `results/`: This folder contain all output files generated from our replication analysis based on tools and sources used from galaxy and R. 
 - `environment/`: Instructions to set up dependencies and tools
