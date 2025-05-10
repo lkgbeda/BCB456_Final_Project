@@ -1,0 +1,3 @@
+[2025-04-09 15:33:34,400] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.28 now available!
+[2025-04-09 15:33:34,400] multiqc.core.file_search                           [INFO   ]  Search path: /work/LAS/geetu-lab/lkgbeda/RNA_Seq/BCB546_Project
+[2025-04-09 15:33:37,165] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 36 reports
