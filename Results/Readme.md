@@ -11,7 +11,7 @@ This folder contains files genrated from analysis using galaxy. Subfolder includ
 - `figure 4b` : contains results of the Expression Pattern Analysis of Genes Related to Cellular Processes
 
 ## `R`
-This folder contains file output from r analysis
+This folder contains file output from R analysis
 - Subfolder include `DEG_Results` and `Figures`
 - `DEG_Results` : contains tab separated data of differentially expressed genes
 - `Figure` : contains all figures generated from R analysis. These include `down and upregulated genes diagrams`, `rldpca plots`,`FPKM heatmaps`, `FPKM distribution violin plots`, `FPKM distribution plots` and - `gene exxpression summary`
