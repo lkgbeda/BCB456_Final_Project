@@ -11,7 +11,7 @@ This project replicates and documents the analysis from *Comparative Transcripto
 
  ## Repository Structure
 - `authors-2022.md`: Overview of original paper,summary of replications, challenges encountered
--  `Comparative Transcriptome Analysis of Agrobacterium tumefaciens...* (Jin et al., 2022)`: Paper pdf 
+-  `BCB546_FINALPROJECTPaper.pdf`: Paper pdf 
 - `data/`: Instructions and links to download original data
 - `code/`: Scripts used to replicate analysis
 - `results/`: Output figures and tables
