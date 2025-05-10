@@ -1,4 +1,4 @@
-# BCB546-Spring2025-Camellia-Agrobacterium-Replication
+# BCB546-Spring2025-_Camellia-Agrobacterium_-Replication
 
 This project replicates and documents the analysis from *Comparative Transcriptome Analysis of Agrobacterium tumefaciens...* (Jin et al., 2022), focusing on the resistance of *Camellia sinensis* to Agrobacterium-mediated transformation.
 
